@@ -7,12 +7,14 @@ for (var i = 0; i < numbers.length; i++) {
     console.log("Fizzbuzz");
   }
 
- else if (numbers[i] % 3 == 0) {
+ if (numbers[i] % 3 == 0) {
 console.log("Fizz");
 }
- else if (numbers[i] % 5 == 0) {
+ if (numbers[i] % 5 == 0) {
   console.log("Buzz");
 }
-
+else{
+  console.log(numbers[i]);
+}
 
 }
